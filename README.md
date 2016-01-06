@@ -1,9 +1,8 @@
 # GTFS
 
-Latest GTFS: 12-13-15 
+Latest GTFS: 01-04-16 
 
-New Rail Schedule, included Holiday times
+New Rail Schedule
 
 Known issues:
-  * The following trains are missing the second half of their trips: 4343, 4359
-  * Missing train(s): 4007
+  * 5315 arrives at University City at 7:22, possibly should arrive at 7:21
