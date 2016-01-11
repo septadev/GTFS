@@ -27,4 +27,4 @@ Overlapping Trips In Same Block
 * FOX_807_V5_M
 * FOX_805_V5_M 
 
-The differences between the overlapping trip in the same block appear to be around a minute.
+The differences between the overlapping stop in the same block appear to be around a minute.
