@@ -8,7 +8,6 @@ Known issues:
   
 Overlapping Trips In Same Block
  
-* CHW_814_V5_M
 * CHE_7865_V55_M
 * CHW_852_V5_M
 * FOX_849_V5_M
