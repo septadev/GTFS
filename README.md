@@ -1,8 +1,9 @@
 # GTFS
 
-Latest GTFS: 01-11-16 v2
+Latest GTFS: 02-21-16
 
-Added update times for CHW
+New bus schedule
+Extending rail from previous expiration GTFS to 04/16/16
 
 Known issues:
   
