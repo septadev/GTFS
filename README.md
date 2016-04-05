@@ -1,9 +1,14 @@
 # GTFS
 
-Latest GTFS: 02-21-16
+Latest GTFS: 04-10-16
 
-New bus schedule
-Extending rail from previous expiration GTFS to 04/16/16
+Updated bus schedule
+   * Route 65 going on detour
+   * Modified times to put them in sync with rail changes
+
+New rail schedule
+   * Changes to Airport times during Weekend service
+
 
 Known issues:
-  
+  * Certain trains have times a few minutes earlier than printed schedules
