@@ -11,4 +11,4 @@ New rail schedule
 
 
 Known issues:
-  * Certain trains have times a few minutes earlier than printed schedules
+  * Resolved differences between PDF timetable and GTFS times.
