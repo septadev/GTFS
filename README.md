@@ -1,14 +1,14 @@
 # GTFS
 
-Latest GTFS: 04-10-16
+Latest GTFS: 04-25-16
 
 Updated bus schedule
-   * Route 65 going on detour
-   * Modified times to put them in sync with rail changes
+   * Updates to route 36
+   * Updates to the NHSL
 
 New rail schedule
-   * Changes to Airport times during Weekend service
+   * No change from 04/10/16 release
 
 
 Known issues:
-  * Resolved differences between PDF timetable and GTFS times.
+  * 
