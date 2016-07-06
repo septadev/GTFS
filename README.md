@@ -1,6 +1,6 @@
 # GTFS
 
-Latest GTFS: 07-05-16
+Latest GTFS: 07-06-16
 
 Notes:
    * Contains Enhanced Saturday Schedule Service for Regional Rail
