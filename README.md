@@ -1,7 +1,7 @@
 # GTFS
 
-Latest GTFS: 06-19-16 v1
+Latest GTFS: 07-05-16
 
 Notes:
-   * Fixed issue with Elwyn train service being mislabeled as Norristown
-   * Updated times for trains 6244, 772 and 773 
+   * Contains Enhanced Saturday Schedule Service for Regional Rail
+   * EMSRR times were not rolled into Media/Elwyn Rail schedule due to time constraints
