@@ -8,3 +8,4 @@ Notes:
 
 Known isuses:
    * There are no stop_times for Link Belt
+   * Two times for train 1810 are listed as 30:XX
