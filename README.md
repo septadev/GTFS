@@ -1,9 +1,10 @@
 # GTFS
 
-Latest GTFS: 09-19-16
+Latest GTFS: 09-22-16
 
 Notes:
-   * Updated rail schedule goes into effect 09/19
+   * Updated bus schedule goes into effect 09/22
+   * Rail schedule remains the same at 09/19
 
 Known issues:
    
