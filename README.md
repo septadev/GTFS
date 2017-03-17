@@ -1,9 +1,9 @@
 # GTFS
 
-Latest GTFS: 02-26-17
+Latest GTFS: 03-14-17
 
 Notes:
-   * New Bus Schedule
+   * Updated Rail End Date
 
 Known issues:
   
