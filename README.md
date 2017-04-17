@@ -4,11 +4,11 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20170314.1](https://github.com/septadev/GTFS/releases/tag/v20170314.1) released on March 17, 2017
+Latest version: [20170423](https://github.com/septadev/GTFS/releases/tag/v20170423) released on April 23, 2017
 
-Effective until: April 23, 2017 for rail and June 17, 2017 for bus (but updates will be announced here before then)
+Effective until: July 08, 2017 for rail and June 17, 2017 for bus (but updates will be announced here before then)
 
-### Changes since [version 20170314](https://github.com/septadev/GTFS/releases/tag/v20170314):
+### Changes since [version 20170423](https://github.com/septadev/GTFS/releases/tag/v20170423):
 
 * Updated rail service schedule end date since 
 
