@@ -10,7 +10,8 @@ Effective until: July 08, 2017 for rail and June 17, 2017 for bus (but updates w
 
 ### Changes since [version 20170423](https://github.com/septadev/GTFS/releases/tag/v20170423):
 
-* Updated rail service schedule end date since 
+* Update Rail Schedule
+* Minor updates to Bus Schedule
 
 ### Known issues:
 
