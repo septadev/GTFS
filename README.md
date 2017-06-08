@@ -10,8 +10,8 @@ Effective until: July 7th, 2017 for rail and September 2nd, 2017 for bus (but up
 
 ### Changes since [version 20170423.1](https://github.com/septadev/GTFS/releases/tag/v20170423.1):
 
-* No change to Rail
-* Updates to Bus Schedule, **service_id has changed, multiple ids per day of the week**
+* Rail remains unchanged
+* Bus service updated, **change with service_id, multiple ids per day of the week**
 
 ### Known issues:
 
