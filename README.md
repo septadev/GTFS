@@ -4,14 +4,13 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20171022](https://github.com/septadev/GTFS/releases/tag/v20171022) released on October 20th, 2017, effective on October 22th.
+Latest version: [20171113](https://github.com/septadev/GTFS/releases/tag/v20171113) released on November 13th, 2017, effective on November 13tth.
 
 Effective until: December 9th, 2017 for rail and February 17th, 2018 for bus (but updates will be announced here before then)
 
-### Changes since [version 20170910](https://github.com/septadev/GTFS/releases/tag/v20170910): 
+### Changes since [version 20171022](https://github.com/septadev/GTFS/releases/tag/v20171022): 
  
-* Added missing stops between Whitman Plaza and Washington Ave on Route 47M
-* Added new BLVDDIR route
+* Removed 101B
 
 ### Known issues:
 
@@ -20,3 +19,4 @@ Effective until: December 9th, 2017 for rail and February 17th, 2018 for bus (bu
 ## Feed
 
 A feed of releases is [available as RSS](https://github.com/septadev/GTFS/releases.atom).
+
