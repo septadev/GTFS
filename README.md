@@ -14,7 +14,7 @@ Effective until: November 11th, 2018 for rail and August 25th, 2018 for bus (but
 
 ### Known issues:
 
-* Media/Elwyn only has service between Elwyn and 49th Street.  At this time, shuttle bus service between 49th Street and 30th Street Station have not be added into the schedule.
+* 
 
 ## Feed
 
