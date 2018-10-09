@@ -4,13 +4,13 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20181010](https://github.com/septadev/GTFS/releases/tag/v201810100) updated on October 1st, 2018, effective on October 1st.
+Latest version: [20181010](https://github.com/septadev/GTFS/releases/tag/v201810101) updated on October 9th, 2018, effective on October 10st.
 
-Effective until: October 9th, 2018 for rail and February 23th, 2019 for bus (but updates will be announced here before then)
+Effective until: October 10th, 2018 for rail and February 23th, 2019 for bus (but updates will be announced here before then)
 
 ### Changes since [version 20181001](https://github.com/septadev/GTFS/releases/tag/v201810010): 
  
-*  Given the amount of Amtrak and SEPTA trains operating in this vicinity, temporary service changes and impacts to service will be required to help alleviate congestion within the Amtrak work zone on the Cynwyd, Chestnut Hill East, Chestnut Hill West, and Trenton Lines. Customers may experience in-service delays of up to 15 minutes on these lines and the Fox Chase and Paoli/Thorndale lines.
+*  Regularly Scheduled Service on Chestnut Hill East, Chestnut Hill West, Cynwyd, and Trenton Lines Resumes Wednesday, October 10, 2018
 
 ### Known issues:
 
