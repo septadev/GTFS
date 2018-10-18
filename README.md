@@ -4,13 +4,13 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20181010](https://github.com/septadev/GTFS/releases/tag/v201810102) updated on October 9th, 2018, effective on October 10st.
+Latest version: [20181022](https://github.com/septadev/GTFS/releases/tag/v201810220) updated on October 18th, 2018, effective on October 22nd.
 
-Effective until: October 10th, 2018 for rail and February 23th, 2019 for bus (but updates will be announced here before then)
+Effective until: December 15th, 2018 for rail and February 23th, 2019 for bus (but updates will be announced here before then)
 
-### Changes since [version 20181001](https://github.com/septadev/GTFS/releases/tag/v201810010): 
+### Changes since [version 20181010](https://github.com/septadev/GTFS/releases/tag/v201810102): 
  
-*  Regularly Scheduled Service on Chestnut Hill East, Chestnut Hill West, Cynwyd, and Trenton Lines Resumes Wednesday, October 10, 2018
+*  Train 9820 is being rescheduled to a later time slot
 
 ### Known issues:
 
