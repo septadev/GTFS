@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [201903123](https://github.com/septadev/GTFS/releases/tag/v201903230) updated on March 19th, 2019, effective on March 23th.
+Latest version: [20190327](https://github.com/septadev/GTFS/releases/tag/v201903270) updated on March 27th, 2019, effective on March 27th.
 
 Effective until: March 23rd, 2019 for rail and June 8th, 2019 for bus (but updates will be announced here before then)
 
-### Changes since [version 20190310](https://github.com/septadev/GTFS/releases/tag/v201903100): 
+### Changes since [version 20190323](https://github.com/septadev/GTFS/releases/tag/v201903230): 
  
-*   FXC train 6817 operating 3 minutes later, 6810 operating 10 minutes earlier
-*   Wilmington service restored with end of Amtrak construction
+*   FXC train 8217 added Wayne Junction station 
+*   Minor changes to bus routes 30, 56, 57, 115, 125, 201, 204, 205, 206.
 
 ### Known issues:
 
