@@ -4,11 +4,11 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20190609](https://github.com/septadev/GTFS/releases/tag/v201906090) updated on April 17th, 2019, effective on April 17th.
+Latest version: [20190709](https://github.com/septadev/GTFS/releases/tag/v201907090) updated on April 17th, 2019, effective on April 17th.
 
 Effective until: July 27th, 2019 for rail and June 8th, 2019 for bus (but updates will be announced here before then)
 
-### Changes since [version 20190417](https://github.com/septadev/GTFS/releases/tag/v201904170): 
+### Changes since [version 20190609](https://github.com/septadev/GTFS/releases/tag/v201906090): 
  
 *   Removed Churchman's Crossing to some WIL trains
 *   Minor changes to BUS
