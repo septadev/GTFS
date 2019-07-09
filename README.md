@@ -10,7 +10,7 @@ Effective until: July 27th, 2019 for rail and June 8th, 2019 for bus (but update
 
 ### Changes since [version 20190609](https://github.com/septadev/GTFS/releases/tag/v201906090): 
  
-*   Removed Churchman's Crossing to some WIL trains
+*   Updates to a few WIL trains
 *   Minor changes to BUS
 
 ### Known issues:
