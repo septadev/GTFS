@@ -4,14 +4,15 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20190709](https://github.com/septadev/GTFS/releases/tag/v201907090) updated on April 17th, 2019, effective on April 17th.
+Latest version: [20190720](https://github.com/septadev/GTFS/releases/tag/v201907200) updated on July 19th, 2019, effective on July 20th.
 
-Effective until: July 27th, 2019 for rail and June 8th, 2019 for bus (but updates will be announced here before then)
+Effective until: August 8th, 2019 for rail and August 31th, 2019 for bus (but updates will be announced here before then)
 
-### Changes since [version 20190609](https://github.com/septadev/GTFS/releases/tag/v201906090): 
+### Changes since [version 20190709](https://github.com/septadev/GTFS/releases/tag/v201907090): 
  
-*   Updates to a few WIL trains
-*   Minor changes to BUS
+*   RAIL: Added Airport bus substitution times into rail
+*   RAIL: Wilmington trains will board at 30th Street Lower Level and will not stop at University City
+*   RAIL: Added Media/Elwyn bus substitution times into rail
 
 ### Known issues:
 
