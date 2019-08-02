@@ -10,7 +10,7 @@ Effective until: October 6th, 2019 for rail and August 31th, 2019 for bus (but u
 
 ### Changes since [version 20190720](https://github.com/septadev/GTFS/releases/tag/v201907200): 
  
-*   
+*   RAIL: Airport, Elwyn and Wilmington lines resume normal service
 
 ### Known issues:
 
