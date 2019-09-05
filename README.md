@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20190901](https://github.com/septadev/GTFS/releases/tag/v201909011) updated on August 28th, 2019, effective on September 1st.
+Latest version: [20190908](https://github.com/septadev/GTFS/releases/tag/v201909080) updated on September 5th, 2019, effective on September 8th.
 
 Effective until: October 6th, 2019 for rail and February 2nd, 2020 for bus (but updates will be announced here before then)
 
-### Changes since [version 20190826](https://github.com/septadev/GTFS/releases/tag/v201908261): 
+### Changes since [version 20190901](https://github.com/septadev/GTFS/releases/tag/v201909011): 
  
 *  BUS: 
-*  RAIL: Updated stop times for weekday trains 5256
+*  RAIL: 
 
 ### Known issues:
 
