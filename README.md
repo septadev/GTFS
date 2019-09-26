@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20190929](https://github.com/septadev/GTFS/releases/tag/v201909290) updated on September 5th, 2019, effective on September 8th.
+Latest version: [20190929](https://github.com/septadev/GTFS/releases/tag/v201909291) updated on September 5th, 2019, effective on September 8th.
 
 Effective until: December 22th, 2019 for rail and February 2nd, 2020 for bus (but updates will be announced here before then)
 
 ### Changes since [version 20190908](https://github.com/septadev/GTFS/releases/tag/v201909080): 
  
 *  BUS: 
-*  RAIL: 
+*  RAIL: Train 541, updated Gwynedd Valley time to 14:29
 
 ### Known issues:
 
