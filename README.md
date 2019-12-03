@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20191030](https://github.com/septadev/GTFS/releases/tag/v201910301) updated on November 5th, 2019, effective on November 5th.
+Latest version: [20191202](https://github.com/septadev/GTFS/releases/tag/v201912020) updated on November 27th, 2019, effective on December 2nd.
 
 Effective until: December 22th, 2019 for rail and February 2nd, 2020 for bus (but updates will be announced here before then)
 
-### Changes since [version 20191015](https://github.com/septadev/GTFS/releases/tag/v201910151): 
+### Changes since [version 20191030](https://github.com/septadev/GTFS/releases/tag/v201910301): 
  
-*  BUS: Added missing stops for route 62
-*  RAIL: Updated Trenton times
+*  BUS: Updates for 110, 111, 114, and 117
+*  RAIL:
 
 ### Known issues:
 
