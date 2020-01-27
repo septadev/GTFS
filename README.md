@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [202001260](https://github.com/septadev/GTFS/releases/tag/v202001260) updated on January 24th, 2020, effective on January 26th.
+Latest version: [20200128](https://github.com/septadev/GTFS/releases/tag/v202001280) updated on January 27th, 2020, effective on January 28th.
 
 Effective until: March 14th, 2020 for rail and February 2nd, 2020 for bus (but updates will be announced here before then)
 
-### Changes since [version 20191215](https://github.com/septadev/GTFS/releases/tag/v20191215): 
+### Changes since [version 20200126](https://github.com/septadev/GTFS/releases/tag/v202001260): 
  
 *  BUS:
-*  RAIL: 
+*  RAIL: University City Station has been renamed Penn Medicine Station
 
 ### Known issues:
 
