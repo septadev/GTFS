@@ -15,7 +15,7 @@ Effective until: further notice (but updates will be announced here before then)
 
 ### Known issues:
 
-* BUS: 101B is missing from trips
+* BUS: 
 
 ## Feed
 
