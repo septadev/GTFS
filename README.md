@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
  
-Latest version: [2020517](https://github.com/septadev/GTFS/releases/tag/v202005173) updated on May 26th, 2020, effective on May 17th.
+Latest version: [20200614](https://github.com/septadev/GTFS/releases/tag/v202006140) updated on June 3rd, 2020, effective on June 14th.
 
 Effective until: further notice (but updates will be announced here before then)
 
-### Changes since [version 2020426](https://github.com/septadev/GTFS/releases/tag/v202004260): 
+### Changes since [version 20200517](https://github.com/septadev/GTFS/releases/tag/v202005173): 
  
-*  BUS:  Resumption of Spring service, with a few changes.
-*  RAIL: SCIP Schedule.  Suspended lines: CHE, CHW, CYN, NOR, MED, WTR
+*  BUS:  New schedule
+*  RAIL: SCIP Schedule continuation
 
 ### Known issues:
 
