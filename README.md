@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [20200801](https://github.com/septadev/GTFS/releases/tag/v202008010) updated on August 2nd, 2020, effective on August 1st.
+Latest version: [20200816](https://github.com/septadev/GTFS/releases/tag/v202008160) updated on August 16th, 2020, effective on August 16th.
 
 Effective until: further notice (but updates will be announced here before then)
 
-### Changes since [version 20200718](https://github.com/septadev/GTFS/releases/tag/v202007180): 
+### Changes since [version 20200801](https://github.com/septadev/GTFS/releases/tag/v20200801): 
  
-*  BUS:  Minor updates
-*  RAIL: Updated schedule, West Trenton construction, add Airport train 9423 and adjusted times for trian 6207
+*  BUS:  
+*  RAIL: 
 
 ### Known issues:
 
