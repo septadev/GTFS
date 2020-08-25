@@ -3,12 +3,12 @@
 This is SEPTA's General Transit Feed Specification publication for rail and bus service. This is a primary source intended for transit and mapping applications.
 
 ## Latest release
-
-Latest version: [20200816](https://github.com/septadev/GTFS/releases/tag/v202008160) updated on August 16th, 2020, effective on August 16th.
+ 
+Latest version: [20200825](https://github.com/septadev/GTFS/releases/tag/v202008250) updated on August 16th, 2020, effective on August 16th.
 
 Effective until: further notice (but updates will be announced here before then)
 
-### Changes since [version 20200801](https://github.com/septadev/GTFS/releases/tag/v20200801): 
+### Changes since [version 20200816](https://github.com/septadev/GTFS/releases/tag/v202008160): 
  
 *  BUS:  
 *  RAIL: 
