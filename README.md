@@ -4,11 +4,11 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version 20210418](https://github.com/septadev/GTFS/releases/tag/v202104183) updated on April 22nd, 2021, effective on April 22nd.  
+Latest version: [version 20210509](https://github.com/septadev/GTFS/releases/tag/v202105091) updated on May 7th, 2021, effective on May 9th.  
 
 Effective until: September 11th, 2021 for rail and June 5th, 2020 for bus (but updates will be announced here before then)
 
-### Changes since [version 20210405](https://github.com/septadev/GTFS/releases/tag/v202104052): 
+### Changes since [version 20210418](https://github.com/septadev/GTFS/releases/tag/v202104183): 
  
 *  BUS:  
 *  RAIL:  
