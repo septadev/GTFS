@@ -4,13 +4,13 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version 20210627](https://github.com/septadev/GTFS/releases/tag/v202106271) updated on June 27th, 2021, effective on June 27th.  
+Latest version: [version 20210716](https://github.com/septadev/GTFS/releases/tag/v202107161) updated on July 16th, 2021, effective on July 16th.  
 
 Effective until: November 11th, 2021 for rail and August 28th, 2021 for bus (but updates will be announced here before then)
 
-### Changes since [version 20210606](https://github.com/septadev/GTFS/releases/tag/v202106061): 
+### Changes since [version 20210627](https://github.com/septadev/GTFS/releases/tag/v202106271): 
  
-*  BUS:  
+*  BUS:  Updated for trolley blitz
 *  RAIL:  
 
 ### Known issues:
