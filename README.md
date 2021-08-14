@@ -4,13 +4,13 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version v20210801](https://github.com/septadev/GTFS/releases/tag/v202108012) updated on July 26th, 2021, effective on August 1st.  
+Latest version: [version v20210807](https://github.com/septadev/GTFS/releases/tag/v202108071) updated on August 14th, 2021, effective on August 14st.  
 
-Effective until: November 11th, 2021 for rail and August 28th, 2021 for bus (but updates will be announced here before then)
+Effective until: August 29th, 2021 for rail and August 28th, 2021 for bus (but updates will be announced here before then)
 
-### Changes since [version 20210726](https://github.com/septadev/GTFS/releases/tag/v202107261): 
+### Changes since [version v20210801](https://github.com/septadev/GTFS/releases/tag/v202108012): 
  
-*  BUS:  Changes to route 135, 92 and 66
+*  BUS:  Weekend track work affecting WIL, AIR and MED lines
 *  RAIL:  
 
 ### Known issues:
