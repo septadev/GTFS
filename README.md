@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version v20220227](https://github.com/septadev/GTFS/releases/tag/v202202271) updated on February 22nd, 2022, effective on February 27th.  
+Latest version: [version v20220424](https://github.com/septadev/GTFS/releases/tag/v202204241) updated on April 21st, 2022, effective on April 24th.  
 
-Effective until: June 6th, 2022 for rail and June 11th, 2022 for bus (but updates will be announced here before then)
+Effective until: September 9th, 2022 for rail and June 11th, 2022 for bus (but updates will be announced here before then)
 
-### Changes since [version v20220218](https://github.com/septadev/GTFS/releases/tag/v202202182): 
+### Changes since [version v20220227](https://github.com/septadev/GTFS/releases/tag/v202202271): 
  
 *  BUS:  
-*  RAIL: 
+*  RAIL: Norristown trains starting and stopping at Norristown T.C. for the next three weekends
 
 ### Known issues:
 
