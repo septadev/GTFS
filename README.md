@@ -11,7 +11,7 @@ Effective until: September 9th, 2022 for rail and September 9th, 2022 for bus (b
 ### Changes since [version v20220612](https://github.com/septadev/GTFS/releases/tag/v202206122): 
  
 *  BUS:  
-*  RAIL: Norristown trains starting and stopping at Norristown T.C. for the next three weekends
+*  RAIL: SCIP track work modifying service on Wilmington, Airport and Media/Elwyn lines
 
 ### Known issues:
 
