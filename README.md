@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version v20220804](https://github.com/septadev/GTFS/releases/tag/v202208041) updated on August 4th, 2022, effective on August 6th.  
+Latest version: [version v20220814](https://github.com/septadev/GTFS/releases/tag/v202208141) updated on August 12th, 2022, effective on August 14th.  
 
-Effective until: September 9th, 2022 for rail and September 9th, 2022 for bus (but updates will be announced here before then)
+Effective until: August 20th, 2022 for rail and September 9th, 2022 for bus (but updates will be announced here before then)
 
-### Changes since [version v20220714](https://github.com/septadev/GTFS/releases/tag/v202207145): 
+### Changes since [version v20220804](https://github.com/septadev/GTFS/releases/tag/v202208041): 
  
 *  BUS:  
-*  RAIL: SCIP track work modifying service on Wilmington, Airport and Media/Elwyn lines
+*  RAIL: SCIP schedule effective for entire week
 
 ### Known issues:
 
