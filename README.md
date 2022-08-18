@@ -4,14 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version v20220814](https://github.com/septadev/GTFS/releases/tag/v202208141) updated on August 12th, 2022, effective on August 14th.  
+Latest version: [version v20220821](https://github.com/septadev/GTFS/releases/tag/v202208211) updated on August 18th, 2022, effective on August 21st.  
 
-Effective until: August 20th, 2022 for rail and September 9th, 2022 for bus (but updates will be announced here before then)
+Effective until: March 4th, 2023 for rail and September 9th, 2022 for bus (but updates will be announced here before then)
 
-### Changes since [version v20220804](https://github.com/septadev/GTFS/releases/tag/v202208041): 
+### Changes since [version v20220814](https://github.com/septadev/GTFS/releases/tag/v202208141): 
  
 *  BUS:  
-*  RAIL: SCIP schedule effective for entire week
+*  RAIL: New Rail schedule, end of SCIP work, adds Wawa station
 
 ### Known issues:
 
