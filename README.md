@@ -4,18 +4,18 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version  v20220910](https://github.com/septadev/GTFS/releases/tag/v202209101) updated on September 10th, 2022, effective on August 28th.  
+Latest version: [version  v20221212](https://github.com/septadev/GTFS/releases/tag/v202212121) updated on December 12th, 2022, effective on December 11th.  
 
 Effective until: March 4th, 2023 for rail and February 19th, 2023 for bus (but updates will be announced here before then)
 
-### Changes since [version v20220830](https://github.com/septadev/GTFS/releases/tag/v202208301): 
+### Changes since [version v20220910](https://github.com/septadev/GTFS/releases/tag/v202209101): 
  
 *  BUS: 
-*  RAIL: Fix GPS coordinates with Wawa
+*  RAIL: 
 
 ### Known issues:
 
-* RAIL: 
+* Issues with patterns for certain routes
 
 ## Feed
 
