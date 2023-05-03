@@ -8,7 +8,7 @@ Latest version: [version v20230502](https://github.com/septadev/GTFS/releases/ta
 
 Effective until: August 19th, 2023 for rail and June 10th, 2023 for bus (but updates will be announced here before then)
 
-### Changes since [version v20230434](https://github.com/septadev/GTFS/releases/tag/v202304231): 
+### Changes since [version v20230423](https://github.com/septadev/GTFS/releases/tag/v202304231): 
  
 *  BUS: Updates to Route L
 *  RAIL:  
