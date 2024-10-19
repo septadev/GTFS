@@ -4,16 +4,14 @@ This is SEPTA's General Transit Feed Specification publication for rail and bus 
 
 ## Latest release
 
-Latest version: [version v20240825](https://github.com/septadev/GTFS/releases/tag/v202408251) updated on August 21th, 2024, effective on August 25th, 2024.
+Latest version: [version v20241020](https://github.com/septadev/GTFS/releases/tag/v202410200) updated on October 19th, 2024, effective on October 20th, 2024.
 
-Effective until: Sept 7th, 2024 for rail and Feb 22th, 2025 for bus (but updates will be announced here before then)
+Effective until: November 23rd, 2024 for rail and Feb 22th, 2025 for bus (but updates will be announced here before then)
 
-### Changes since [version v20240313](https://github.com/septadev/GTFS/releases/tag/v202403240): 
+### Changes since [version v20240908](https://github.com/septadev/GTFS/releases/tag/v202409081): 
  
-*  BUS:  New Fall Schedule
-*  RAIL:  Next update on Sept 8th
-
-Note: Starting with this GTFS, the schedule will better reflect the various nuances some routes make throughout the week.  As such, the calendar_dates.txt has grown to cover these variances in service.
+*  BUS:  Minor changes to Rte 23
+*  RAIL:  
 
 ### Known issues:
 * 
