@@ -27,7 +27,7 @@ The route names of SEPTA's heavy rail (subway/elevated) and light rail (trolley)
 | BSL              | BSL                      | Broad Street Line                   | - | B2           | B2                   | Broad Street Line Express           |
 | BSL              | BSL                      | Broad Street Line                   | - | B3           | B3                   | Broad-Ridge Spur                    |
 | MFL              | MFL                      | Market-Frankford Lin                | - | L1           | L1                   | Market-Frankford Line               |
-| NHSL             | NHSL                     | Norristown High Speed Line          | - | M1           | M1                   | Broad Street Line Local             |
+| NHSL             | NHSL                     | Norristown High Speed Line          | - | M1           | M1                   | Norristown High Speed Line Local             |
 | G                | G                        | Overbk/LankMC to ColCom/FdDstCtr    | - | 63           | 63                   | G - Lanknau/Overbrk to ColCom/FdCtr |
 | H                | H                        | Broad-Erie to Cheltenham-Ogontz-H   | - | 71           | 71                   | H - Broad-Erie to Cheltenham-Ogontz |
 | J                | J                        | Chelten-Wisshkn to Richmond-Orthodx | - | 41           | 41                   | J - Cheltn-Wsshkn to Richmnd-Orthdx |
