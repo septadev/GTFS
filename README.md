@@ -1,4 +1,4 @@
-# SEPTA Metro - Beta GTFS Feed 
+# SEPTA Metro - GTFS Feed 
 
 #### About this document   
 
