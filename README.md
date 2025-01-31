@@ -2,7 +2,7 @@
 
 #### About this document   
 
-This document is intended to help developers prepare for SEPTA's transition to its new "Metro" nomenclature. It describes how SEPTA's updated GTFS-static feed, planned to launch with the February 2025 schedule change, differs from its current feed. (https://github.com/septadev/GTFS/releases/tag/v202407032). This document *is* a guide to anticipated changes in SEPTA's GTFS-static feed. It *is not*: 
+This document is intended to help developers prepare for SEPTA's transition to its new "Metro" nomenclature. It describes how SEPTA's updated GTFS-static feed, planned to launch with the February 2025 schedule change, differs from its current feed. (https://github.com/septadev/GTFS/releases/tag/v202502230). This document *is* a guide to anticipated changes in SEPTA's GTFS-static feed. It *is not*: 
 
 - A comprehensive guide to SEPTA's GTFS feeds or [GTFS itself] (https://gtfs.org/schedule/) 
 - A comprehensive guide to SEPTA's upcoming Metro nomenclature and wayfinding overhaul. More info on the changes can be found at www.septa.org/metro 
