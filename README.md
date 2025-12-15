@@ -1,19 +1,31 @@
-# SEPTA Metro - GTFS Feed 
+# SEPTA Bus and Metro - GTFS Feed 
+## Changelog
 
-#### About this document   
+### v202512140
 
-This document is intended to help developers prepare for SEPTA's transition to its new "Metro" nomenclature. It describes how SEPTA's updated GTFS-static feed, planned to launch with the February 2025 schedule change, differs from its current feed. (https://github.com/septadev/GTFS/releases/tag/v202502240). This document *is* a guide to anticipated changes in SEPTA's GTFS-static feed. 
+Bus/Metro
+* New stops and shapes for routes serving the new Wissahickon Transit Center.
+* New "Fox Chase Shuttle Bus" route for upcoming work.
+* T routes continue to serve 40th-Market/Filbert.
+
+Regional Rail
+* Additional New Year's Eve service now included.
+* Fox Chase scheudles adjusted to reflect upcoming work.
+
+## About this documentation   
+
+This document describes SEPTA's "Metro" nomenclature and custom fields/files. This document also contains a changelog. 
 
 It *is not*: 
 
-- A comprehensive guide to SEPTA's GTFS feeds or [GTFS itself] (https://gtfs.org/schedule/) 
-- A comprehensive guide to SEPTA's upcoming Metro nomenclature and wayfinding overhaul. More info on the changes can be found at www.septa.org/metro 
+- A comprehensive guide to SEPTA's GTFS feeds or [GTFS itself](https://gtfs.org/schedule/) 
+- A comprehensive guide to SEPTA's upcoming Metro nomenclature and wayfinding overhaul. More info on the changes can be found at [septa.org/metro](https://gtfs.org/schedule)
 - A guarantee that SEPTA will provide data in any particular format (though we will try our best) 
-- A [license agreement] (https://wwww.septa.org/license-agreement/)  
+- A [license agreement](https://wwww.septa.org/license-agreement/)  
 
 ## routes.txt 
 
-The route names of SEPTA's heavy rail (subway/elevated) and light rail (trolley) routes, and certain bus routes are [changing](https://wwww.septa.org/metro/letters-colors-symbols/). In GTFS, the new nomenclature will be in the `route_short_name` field, while the old nomenclature remains in the `route_long_name`. The `route_id` field will be updated to match the `route_short_name` field, as is current practice. Physical signage will be replaced throughout the system over the coming months/years, expected to be completed in 2026. SEPTA’s app and website will be displaying both new and old nomenclature side-by-side to support riders through this transition. 
+The route names of SEPTA's heavy rail (subway/elevated) and light rail (trolley) routes, and certain bus routes are [changing](https://wwww.septa.org/metro/letters-colors-symbols/). In GTFS, the new nomenclature is in the `route_short_name` field, while the old nomenclature remains in the `route_long_name`. The `route_id` field matches the `route_short_name` field, as is current practice (excpet in the case of shuttle buses). Physical signage will be replaced throughout the system over the coming months/years, expected to be completed in 2026. SEPTA's app and website display both new and old nomenclature side-by-side to support riders through this transition. 
 
 | Current route_id | Current route_short_name | Current route_long_name             | - | New route_id | New route_short_name | New route_long_name                 | 
 | ---------------- | ------------------------ | ----------------------------------- | - | ------------ | -------------------- | ----------------------------------- |
@@ -38,9 +50,11 @@ The route names of SEPTA's heavy rail (subway/elevated) and light rail (trolley)
 | R                | R                        | Henry-Mid or WissTC to FrankfordTC  | - | 82           | 82                   | R - Wissahckn TC/Henry-Midvl to FTC |
 | XH               | XH                       | Broad-Erie to Cheltenham-Ogontz-XH  | - | 81           | 81                   | XH - Broad-Erie to Cheltenham-Ogntz |
 
-Note that in addition to the Metro routes switching to Letter-Number pairs, bus routes that formerly used letter(s) are switching to numbers only. This is so that there are no duplicates with the new Metro letters, and so that moving forward, letters always refer to Metro routes and numbers always refer to Bus routes. Specifically G, H, J, L, R, and XH are changing to numbers. Bus route K will remain “K” until it is discontinued (planned for 2025). 
+Note that in addition to the Metro routes switching to Letter-Number pairs, bus routes that formerly used letter(s) have switched to numbers only. This is so that there are no duplicates with the new Metro letters, and so that moving forward, letters always refer to Metro routes and numbers always refer to bus routes. Specifically G, H, J, L, R, and XH are changing to numbers. Bus route K will remain "K" until it is discontinued. 
 
-Additionally, trolley replacement routes will be added over time as they are needed. These replacement routes are temporary 1:1 replacements of trolleys with buses due to roadwork or other obstacles to trolleys that buses can navigate around. Our trolley network is largely street-running in mixed traffic, so riders will not experience a major change in boarding locations, frequencies, or amenities. Once added, they will not be removed from future feeds, even if no trips are assigned to those routes. They will have a route_id consisting of the route_id of the route they are replacing, followed by a space and the letters “BUS” (for example, route_id “T5 BUS” indicates a bus-operated service replaceing part or all of the T5 route, which is ordinarily a trolley). The route_short_name will also be “T5 BUS” (for example), and the route_long_name will be the same as the service being replaced. Please note: the bus replacement service will carry the route_type of “0” (which indicates a trolley), not “3” (which would indicate a bus). This is an intentional mismatch with the actual type of the vehicle on the street, and is done so that these temporary replacement services will be categorized as “Metro” services in our own tool and third party tools. 
+Additionally, trolley replacement routes will be added over time as they are needed. These replacement routes are temporary 1:1 replacements of trolleys with buses due to roadwork or other obstacles to trolleys that buses can navigate around. Our trolley network is largely street-running in mixed traffic, so riders will not experience a major change in boarding locations, frequencies, or amenities. Once added, they will not be removed from future feeds, even if no trips are assigned to those routes. They will have a route_id consisting of the route_id of the route they are replacing, followed by a space and the letters "BUS" (for example, route_id "T5 BUS" indicates a bus-operated service replaceing part or all of the T5 route, which is ordinarily a trolley). The route_short_name will also be “T5 BUS” (for example), and the route_long_name will be the same as the service being replaced. Please note: the bus replacement service will carry the route_type of "0" (which indicates a trolley), not "3" (which would indicate a bus). This is an intentional mismatch with the actual type of the vehicle on the street, and is done so that these temporary replacement services will be categorized as "Metro" services in our own tool and third party tools. 
+
+In contrast, Regional Rail shuttle buses may follow a different naming scheme and will be categorized as bus services. Regional Rail shuttle bus replacement routes may not have matching route_id and route_short_name values.
 
 ## directions.txt
 
