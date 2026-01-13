@@ -1,16 +1,14 @@
-# SEPTA Bus and Metro - GTFS Feed 
-## Changelog
-
-### v202512140
+### v202601140
 
 Bus/Metro
-* New stops and shapes for routes serving the new Wissahickon Transit Center.
-* New "Fox Chase Shuttle Bus" route for upcoming work.
-* T routes continue to serve 40th-Market/Filbert.
+* Revised stops on Oregon Avenue in relation to new bus lane markings. See [septa.org/news/red-bus-only-lanes/](https://wwww.septa.org/news/red-bus-only-lanes/) for more details.
+* Resolved an issue with duplicate block names on routes L1, B1, B2, and B3.
+* T routes resume service in the tunnel during daytime on weekdays. T routes continue to serve 40th-Market/Filbert late nights and weekends. The "T Bus" remains in service on weekends only. See [septa.org/news/trolley-tunnel-update/](https://wwww.septa.org/news/trolley-tunnel-update/) for more details.
+* Redesignated T5 Bus as `route_type=3` like other shuttles, and added direction information.
 
 Regional Rail
-* Additional New Year's Eve service now included.
-* Fox Chase scheudles adjusted to reflect upcoming work.
+* Corrected Fox Chase Train #817 to originate at Wayne Junction at 9:40 am instead of Fox Chase. See [septa.org/news/fox-chase-shuttle-bus/](https://wwww.septa.org/news/fox-chase-shuttle-bus/) for more details.
+* Please note that all morning express trips on Regional Rail have been restored as of Monday, January 12. See [septa.org/news/morning-express-service-restored/](http://wwww.septa.org/news/morning-express-service-restored/) for more details.
 
 ## About this documentation   
 
