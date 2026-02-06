@@ -1,3 +1,37 @@
+# SEPTA Bus and Metro - GTFS Feed 
+## Changelog
+
+### v202602150
+
+Bus/Metro
+* The weeklong trolley (T routes) tunnel closure previously scheduled from 10 pm on February 13 through 5 am February 23 has been shortened to a weekend only closure from 10 pm on February 13 until 5 am February 16. The "T Bus" remains in service on weekends only. See [septa.org/news/trolley-tunnel-update/](https://wwww.septa.org/news/trolley-tunnel-update/) for more details.
+* The Spring schedule change for most Bus and Metro routes will take effect Sunday, Feb. 22. Changes for routes M1, D1, D2, and some suburban bus routes will take effect Monday, Feb. 23. (This feed takes effect seven days earlier, on Feb. 15, and contains seven days of the Fall schedule in addition to the upcoming Spring schedule.)
+* New Fares v2 information: New files and fields define standard single-journey fare information. Additional media, products, rules, and categories may be added in the future. See [here](https://wwww.septa.org/fares/) for more fare information.
+  * New files: files fare_leg_rules.txt, fare_media.txt, fare_products.txt, fare_transfer_rules.txt, and rider_categories.txt 
+  * New fields: `routes.network_id`, `agency.agency_fare_url`, `agency.cemv_support`
+* New routes "D1 Bus" and "D2 Bus" (`route_id` values in uppercase: "D1 BUS" and "D2 BUS") are weekend bus replacement services for routes D1 and D2. See [here](https://wwww.septa.org/news/d1-d2-shuttle-busing/) for more details.
+  * T Bus, T5 Bus, and FOX Bus routes remain in service.
+* T routes, G1, and formerly lettered bus routes have had their `routes.route_long_names` updated to remove references to their former names. (E.g. T1's long name is now "13th St to 63rd-Malvern/Overbrook" instead of "Route 10"). Also, routes.txt has been reordered into a more natural ordering. The `routes.route_sort_order` field may be provided in the future.
+* Loop routes 35, 310, LUCYGO, and LUCYGR have their first stop marked as pickup only and last stop marked as drop off only to address confusing next-to-arrive information.
+* New `trips.bikes_allowed` information for all bus and Metro trips. See [here](https://wwww.septa.org/bikes/) for more guidelines.
+* New `trips.wheelchair_accessible` information for all bus and Metro trips, and updated `stops.wheelchair_boarding` information for Metro stations where appropriate. 
+* Several `service_id` values and associated trips are not scheduled to be active on any date, but intentionally remain in the GTFS-Schedule data. These are alternate services/patterns/trips that may be used as `TripUpdate.schedule_relationship=DUPLICATED` trips in GTFS-realtime data if needed in case of schedule changes on short-notice.
+* Other minor stop and schedule changes.
+
+Regional Rail
+* New fields provide basic fare information: `agency.agency_fare_url`, `agency.cemv_support`. Fares v2 data may be added in the future.
+
+### v202602010
+
+Bus/Metro
+* Fixes to T line schedules. T routes resume service in the tunnel during daytime on weekdays. T routes continue to serve 40th-Market/Filbert late nights and weekends. The "T Bus" remains in service on weekends only. See [septa.org/news/trolley-tunnel-update/](https://wwww.septa.org/news/trolley-tunnel-update/) for more details.
+* Other minor stop and schedule changes.
+
+Regional Rail
+* New Regional Rail schedules. See [here](https://wwww.septa.org/news/regional-rail-schedules/) for more details.
+* Adds `stops.wheelchair_boarding`, `trips.wheelchair_accessible`, and `trips.bikes_allowed` information for all Regional Rail stations and trips.
+* Updates Regional Rail stop names to follow systemwide naming conventions.
+
 ### v202601140
 
 Bus/Metro
@@ -9,6 +43,32 @@ Bus/Metro
 Regional Rail
 * Corrected Fox Chase Train #817 to originate at Wayne Junction at 9:40 am instead of Fox Chase. See [septa.org/news/fox-chase-shuttle-bus/](https://wwww.septa.org/news/fox-chase-shuttle-bus/) for more details.
 * Please note that all morning express trips on Regional Rail have been restored as of Monday, January 12. See [septa.org/news/morning-express-service-restored/](http://wwww.septa.org/news/morning-express-service-restored/) for more details.
+
+### v202512146
+
+Bus/Metro
+* Added new "T Bus" route (`route_id` "T BUS"), operating 7 days a week between 40th-Market and 15th St/City Hall. See [septa.org/news/trolley-tunnel-update/](https://wwww.septa.org/news/trolley-tunnel-update/) for more info.
+* Fixed T1 calendar.
+* Set FXCB calendar to start Jan. 5, 2025 to align with start of work on Fox Chase line.
+* Changed FXCB `route_short_name` and `route_long_name` to match other branding.
+* Changed "T5 Bus" `route_id` to "T5 BUS" (all uppercase).
+* Removed expired services.
+* Other minor schedule corrections.
+* Note: T routes continue to serve 40th-Market/Filbert.
+
+Regional Rail
+* Minor schedule corrections.
+
+### v202512140
+
+Bus/Metro
+* New stops and shapes for routes serving the new Wissahickon Transit Center.
+* New "Fox Chase Shuttle Bus" route for upcoming work.
+* T routes continue to serve 40th-Market/Filbert.
+
+Regional Rail
+* Additional New Year's Eve service now included.
+* Fox Chase scheudles adjusted to reflect upcoming work.
 
 ## About this documentation   
 
@@ -23,30 +83,30 @@ It *is not*:
 
 ## routes.txt 
 
-The route names of SEPTA's heavy rail (subway/elevated) and light rail (trolley) routes, and certain bus routes are [changing](https://wwww.septa.org/metro/letters-colors-symbols/). In GTFS, the new nomenclature is in the `route_short_name` field, while the old nomenclature remains in the `route_long_name`. The `route_id` field matches the `route_short_name` field, as is current practice (excpet in the case of shuttle buses). Physical signage will be replaced throughout the system over the coming months/years, expected to be completed in 2026. SEPTA's app and website display both new and old nomenclature side-by-side to support riders through this transition. 
+The route names of SEPTA's heavy rail (subway/elevated) and light rail (trolley) routes, and certain bus routes are [changing](https://wwww.septa.org/metro/letters-colors-symbols/). In GTFS, the new nomenclature is in the `route_short_name` field, while the old nomenclature remains in the `route_long_name`. The `route_id` field matches the `route_short_name` field, as is current practice (excpet in the case of shuttle buses). Physical signage will be replaced throughout the system over the coming months/years, expected to be completed in 2026. SEPTA's app and website display both new and old nomenclature side-by-side to support riders through this transition. **As of February 15, 2026:** T routes, G1, and formerly lettered bus routes no longer include the former route name in their `route_long_name` as signage installation progresses and we continue transitioning to the new nomenclature.
 
-| Current route_id | Current route_short_name | Current route_long_name             | - | New route_id | New route_short_name | New route_long_name                 | 
+| Current route_id | Current route_short_name | Former route_long_name              | - | New route_id | New route_short_name | New route_long_name                 | 
 | ---------------- | ------------------------ | ----------------------------------- | - | ------------ | -------------------- | ----------------------------------- |
-| 10               | 10                       | Route 10                            | - | T1           | T1                   | Route 10                            |  
-| 11               | 11                       | Route 11                            | - | T4           | T4                   | Route 11                            | 
-| 13               | 13                       | Route 13                            | - | T3           | T3                   | Route 13                            | 
-| 15               | 15                       | Route 15                            | - | G1           | G1                   | Route 15                            | 
-| 34               | 34                       | Route 34                            | - | T2           | T2                   | Route 34                            | 
-| 36               | 36                       | Route 36                            | - | T5           | T5                   | Route 36                            | 
+| 10               | 10                       | Route 10                            | - | T1           | T1                   | 13th St to 63rd-Malvern/Overbrook   |  
+| 11               | 11                       | Route 11                            | - | T4           | T4                   | 13th St to Darby Transit Center     | 
+| 13               | 13                       | Route 13                            | - | T3           | T3                   | 13th St to Yeadon or Darby TC       | 
+| 15               | 15                       | Route 15                            | - | G1           | G1                   | 63rd-Girard to Richmond-Westmorelnd | 
+| 34               | 34                       | Route 34                            | - | T2           | T2                   | 13th St to 61st-Baltimore/Angora    | 
+| 36               | 36                       | Route 36                            | - | T5           | T5                   | 13th St to 80th St/Eastwick         | 
 | 101              | 101                      | Route 101                           | - | D1           | D1                   | Route 101                           |
 | 102              | 102                      | Route 102                           | - | D2           | D2                   | Route 102                           |
 | BSL              | BSL                      | Broad Street Line                   | - | B1           | B1                   | Broad Street Line Local             |
 | BSL              | BSL                      | Broad Street Line                   | - | B2           | B2                   | Broad Street Line Express           |
 | BSL              | BSL                      | Broad Street Line                   | - | B3           | B3                   | Broad-Ridge Spur                    |
 | MFL              | MFL                      | Market-Frankford Lin                | - | L1           | L1                   | Market-Frankford Line               |
-| NHSL             | NHSL                     | Norristown High Speed Line          | - | M1           | M1                   | Norristown High Speed Line Local             |
-| G                | G                        | Overbk/LankMC to ColCom/FdDstCtr    | - | 63           | 63                   | G - Lanknau/Overbrk to ColCom/FdCtr |
-| H                | H                        | Broad-Erie to Cheltenham-Ogontz-H   | - | 71           | 71                   | H - Broad-Erie to Cheltenham-Ogontz |
-| J                | J                        | Chelten-Wisshkn to Richmond-Orthodx | - | 41           | 41                   | J - Cheltn-Wsshkn to Richmnd-Orthdx |
-| K                | K                        | Ridge-Midvale to Arrott TC          | - | K            | K                    | Ridge-Midvale to Arrott TC          |
-| L                | L                        | ChestnutHill/PlymouthMtgMall to OTC | - | 51           | 51                   | L - PlymthMtg/ChestntHl to Olney TC |
-| R                | R                        | Henry-Mid or WissTC to FrankfordTC  | - | 82           | 82                   | R - Wissahckn TC/Henry-Midvl to FTC |
-| XH               | XH                       | Broad-Erie to Cheltenham-Ogontz-XH  | - | 81           | 81                   | XH - Broad-Erie to Cheltenham-Ogntz |
+| NHSL             | NHSL                     | Norristown High Speed Line          | - | M1           | M1                   | Norristown High Speed Line Local    |
+| G                | G                        | Overbk/LankMC to ColCom/FdDstCtr    | - | 63           | 63                   | Lanknau/Overbrk to ColCom/FdCtr     |
+| H                | H                        | Broad-Erie to Cheltenham-Ogontz-H   | - | 71           | 71                   | Broad-Erie to Cheltenham-Ogontz     |
+| J                | J                        | Chelten-Wisshkn to Richmond-Orthodx | - | 41           | 41                   | Chelten-Wissahckn to Richmnd-Orthdx |
+| K                | K                        | Ridge-Midvale to Arrott TC          | - | K            | K                    | Ridge-Midvale to Arrott Transit Ctr |
+| L                | L                        | ChestnutHill/PlymouthMtgMall to OTC | - | 51           | 51                   | Plymth Mtg/Chestnt Hill to Olney TC |
+| R                | R                        | Henry-Mid or WissTC to FrankfordTC  | - | 82           | 82                   | Wisshkn TC/Henry-Midvl to FrankfdTC |
+| XH               | XH                       | Broad-Erie to Cheltenham-Ogontz-XH  | - | 81           | 81                   | Broad-Erie to Cheltenham-Ogntz      |
 
 Note that in addition to the Metro routes switching to Letter-Number pairs, bus routes that formerly used letter(s) have switched to numbers only. This is so that there are no duplicates with the new Metro letters, and so that moving forward, letters always refer to Metro routes and numbers always refer to bus routes. Specifically G, H, J, L, R, and XH are changing to numbers. Bus route K will remain "K" until it is discontinued. 
 
