@@ -1,6 +1,37 @@
 # SEPTA Bus and Metro - GTFS Feed 
 ## Changelog
 
+### v202602221
+
+**Bus/Metro**
+* B1 Owl added back after accidental omission in preivous version.
+* New file `fare_leg_join_rules.txt` describes "free interchange" locations among the L, B, and T routes to indicate these are not transfers for the purposes of fare calculations.
+* Added a stop on the NOR Bus after accidental omission in previous version.
+* Adds new stops that replace existing `stop_id` values for only B1 trips at Olney (`stop_id` values 33027 and 33028) and 15th St/City Hall (`stop_id` values 33029 and 33030). Existing `stop_id` values continue to serve B2 and B3 trips at Olney and B2 trips at 15th St/City Hall.
+* Corrects FXCB directions in `directions.txt`.
+* Corrects `routes.route_color` for T Bus.
+  * The "T Bus" remains in the feed on inactive `service_id` values. There is currently no upcoming scheduled T Bus service. See [septa.org/news/trolley-tunnel-update/](https://wwww.septa.org/news/trolley-tunnel-update/) for more details.
+* Removes some unused `service_id` values with alternate services.
+* Other minor stop and schedule changes.
+
+**Regional Rail**
+* No changes from preivous version.
+
+### v202602220
+
+**Bus/Metro**
+* The Spring schedule change for most Bus and Metro routes takes effect Sunday, Feb. 22. Changes for routes M1, D1, D2, and some suburban bus routes takes effect Monday, Feb. 23.
+* New route "Manayunk/Norristown Shuttle Bus" (`route_id`: "NOR BUS", `route_short_name`: "NOR Bus") provides shuttle bus service for the Manayunk/Norristown Line (Regional Rail).
+* Stops along the T diversion route have been added to match operations and physical signage.
+* Revised `stops.wheelchair_boarding` information for Metro stations where appropriate. This field now represents the ability for a rider to begin at the sidewalk (or street if no sidewalk exists) and board the vehicle while using a wheelchair. It formerly represented only the platform-vehicle interface.
+* The "T Bus" remains in the feed on inactive `service_id` values. There is currently no upcoming scheduled T Bus service. See [septa.org/news/trolley-tunnel-update/](https://wwww.septa.org/news/trolley-tunnel-update/) for more details.
+* Several `service_id` values and associated trips are not scheduled to be active on any date, but intentionally remain in the GTFS-Schedule data. These are alternate services/patterns/trips that may be used as `TripUpdate.schedule_relationship=DUPLICATED` trips in GTFS-realtime data if needed in case of schedule changes on short-notice.
+* Other minor stop and schedule changes.
+
+**Regional Rail**
+* Additional trips on PAO and LAN routes serve Flower Show attendees on Feb. 28-March 1 and March 7-8. See [here](https://wwww.septa.org/news/flower-show/) for more information on additional Flower Show service.
+* NOR trains originate/terminate at Norristown Transit Center March 21 and March 22 due to track work. 
+
 ### v202602150
 
 Bus/Metro
