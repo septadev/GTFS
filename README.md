@@ -1,6 +1,23 @@
 # SEPTA Bus and Metro - GTFS Feed 
 ## Changelog
 
+### v202603292
+
+**Bus/Metro**
+* New GTFS-Pathways data for Olney Transit Center, including pathways.txt, levels.txt, and `stops.level_id`. Pathways data is subject to change. Data for additional stations will be added in the future.
+* New route "M1 Bus" (`route_id`: "M1 BUS", `route_short_name`: "M1 Shuttle Bus") provides shuttle bus service for M1 service between Bridgeport Station and Norristown Transit Center during a major rehabilitation and structural repair project. See [here](https://wwww.septa.org/news/bridgeport-viaduct-shuttle-bus/) for more information.
+* Added `routes.route_url` field.
+* Removed Key Tix fare information from Fares v2 files because Key Tix sales have ended. See [here](https://wwww.septa.org/news/end-key-tix-sales/) for more information.
+* Corrects `routes.route_color` for L1 OWL, B1 OWL, LUCYGO, and LUCYGR.
+* Renamed remaining "Transportation Centers" to "Transit Centers." These were mostly parent stations.
+* Other minor stop and schedule changes.
+
+**Regional Rail**
+* New weekday schedules effective Monday, March 30. (While the feed is effective March 29, Sunday schedules are unchanged.)
+* Added `trips.trip_short_name` for user-friendly trip identifiers.
+* Renamed Airport Line stops that serve multiple terminals and associated headsigns.
+* Removed empty `routes.route_desc` field.
+  
 ### v202602221
 
 **Bus/Metro**
