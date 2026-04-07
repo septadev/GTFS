@@ -1,6 +1,15 @@
 # SEPTA Bus and Metro - GTFS Feed 
 ## Changelog
 
+### v202603295
+
+**Bus/Metro**
+* No changes.
+
+**Regional Rail**
+* Adjusted arrival times at Suburban Station to match timetabled departure times.
+* Fixed times for weekday WIL train 9204.
+
 ### v202603292
 
 **Bus/Metro**
