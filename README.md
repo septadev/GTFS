@@ -1,7 +1,145 @@
 # SEPTA Bus and Metro - GTFS Feed
 
 ## Changelog
-### v202605101
+
+### v202607261
+
+**Bus/Metro**
+
+*Authoritative (dates in feed_info.txt): 2026-07-12 through 2026-08-08*\
+*Advisory only (dates in calendar.txt & calendar_dates.txt): 2026-08-09 through 2026-08-22*
+* M1 service originates/terminates at Bridgeport 2026-08-01 through 2026-08-22; M1 Bus provides shuttle bus service between Bridgeport and Norristown Transit Center. M1 service will originate/terminate at Hughes Park begining 2026-08-22 in a future feed, with corresponding M1 Bus shuttle bus service. Please see [https://wwww.septa.org/news/m-shuttle-busing/](https://wwww.septa.org/news/m-shuttle-busing/) for more information.
+* D1 Bus and D2 Bus provide shuttle bus service on 2026-08-08 and 2026-08-09 for routes D1 and D2.
+* New route "Norristown Shuttle Bus" (`route_id`: "NOR BUS", `route_short_name`: "NOR Bus") provides shuttle bus service for the Norristown Line (Regional Rail, not Metro route M1) between Norristown Transit Center and Norristown - Elm St (serving Main St) from 2026-08-15 through 2026-08-23.
+* Other minor stop and schedule changes.
+
+**Regional Rail**
+
+*Authoritative (dates in feed_info.txt): 2026-07-12 through 2026-08-29*\
+*Advisory only (dates in calendar.txt & calendar_dates.txt): N/A*
+* Fixes Train 457 to originate at Warminster instead of Glenside.
+
+
+### v202607120
+
+**Bus/Metro**
+
+*Authoritative (dates in feed_info.txt): 2026-07-26 through 2026-08-01
+Advisory only (dates in calendar.txt & calendar_dates.txt): 2026-08-02 through 2026-08-22*
+* West Trenton Shuttle Busprovides shuttle bus service for the West Trenton Line between Yardley and West Trenton on 2026-07-18 and 2026-07-19.
+* New route "Norristown Shuttle Bus" (`route_id`: "NOR BUS", `route_short_name`: "NOR Bus") provides shuttle bus service for the Norristown Line (Regional Rail, not Metro route M1) between Norristown Transit Center and Norristown - Elm St (serving Main St) from 2026-08-15 through 2026-08-23.
+* D1 Bus and D2 Bus provide shuttle bus service on 2026-08-08 and 2026-08-09 for routes D1 and D2.
+* Other minor stop and schedule changes.
+
+
+
+**Regional Rail**
+
+*Authoritative (dates in feed_info.txt): 2026-07-12 through 2026-08-29
+Advisory only (dates in calendar.txt & calendar_dates.txt): N/A*
+* Fixes several schedule issues.
+* West Trenton Line does not serve West Trenton Station on 2026-07-18 and 2026-07-19 for bridge work. 
+* Norristown Line does not serve Main St or Norristown - Elm St from 2026-08-15 through 2026-08-23 for bridge work. 
+* Adjustments to timeframes.txt and fare_leg_rules.txt to prevent rules being ignored due to dropped service IDs.
+
+
+
+### v202606282
+
+**Bus/Metro**
+
+*Authoritative (dates in feed\_info.txt): 2026-06-28 through 2026-08-01
+Advisory (dates in calendar.txt \& calendar\_dates.txt): 2026-08-02 through 2026-08-22*
+
+* Added GTFS-Pathways data for 15th St/City Hall.
+* Overnight L1 and B1 service to select stations on nights of FIFA World Cup matches. Additional B2 sports express service to and from NRG Station for FIFA World Cup matches, MLB All-Star Games, and other events. Please see [https://wwww.septa.org/2026-events/](https://wwww.septa.org/2026-events/) for more information.
+* Special L, B, and T schedules with enhanced service to support July 4 events. Please see [https://wwww.septa.org/news/july-4/](https://wwww.septa.org/news/july-4/) for more information.
+* New route "West Trenton Shuttle Bus" (`route\_id`: "WTR BUS", `route\_short\_name`: "WTR Bus") provides shuttle bus service for the West Trenton Line between Yardley and West Trenton on 2026-07-18 and 2026-07-19.
+* Restored non-timepoint stop times on Routes 129 and 310.
+* Other minor stop and schedule changes.
+
+
+
+**Regional Rail**
+
+*Authoritative (dates in feed\_info.txt): 2026-06-28 through 2026-07-25
+Advisory (dates in calendar.txt \& calendar\_dates.txt): 2026-07-26 through 2026-08-01*
+
+* For MLB All-Star Week, added weekend Regional Rail service. Please see [https://wwww.septa.org/news/mlb/](https://wwww.septa.org/news/mlb/) for more information.
+* For July 4 events, most Regional Rail lines (except AIR, CHE, CHW, WAR, WIL) provide additional inbound and outbound service before the fireworks; all Regional Rail lines (except Airport) provide late-night outbound service from Jefferson, Suburban and William H. Gray III 30th St stations after the fireworks. Please see [https://wwww.septa.org/news/july-4/](https://wwww.septa.org/news/july-4/) for more information.
+* Regional Rail summer schedules begin July 5. Please see [https://wwww.septa.org/news/regional-rail-schedules/](https://wwww.septa.org/news/regional-rail-schedules/) for more information.
+* West Trenton Line does not serve West Trenton Station on 2026-07-18 and 2026-07-19 for bridge work. 
+* Adjustments to timeframes.txt and fare\_leg\_rules.txt to prevent rules being ignored due to dropped service IDs.
+
+
+
+### v202606281
+
+**Bus/Metro**
+
+*Authoritative (dates in calendar \& calendar\_dates): 2026-06-28 through 2026-07-11
+Advisory (dates in feed\_info): 2026-07-12 through 2026-08-22*
+
+* Added GTFS-Pathways data for 15th St/City Hall.
+* Overnight L1 and B1 service to select stations on nights of FIFA World Cup matches. Additional B2 sports express service to and from NRG Station for FIFA World Cup matches, MLB All-Star Games, and other events. Please see [https://wwww.septa.org/2026-events/](https://wwww.septa.org/2026-events/) for more information.
+* Special L, B, and T schedules with enhanced service to support July 4 events. Please see [https://wwww.septa.org/news/july-4/](https://wwww.septa.org/news/july-4/) for more information.
+* Other minor stop and schedule changes.
+
+**Regional Rail**
+
+*Authoritative (dates from calendar \& calendar\_dates): 2026-06-28 through 2026-07-11
+Advisory (dates in feed\_info): 2026-07-12 through 2026-08-01*
+
+* For MLB All-Star Week, added weekend Regional Rail service. Please see [https://wwww.septa.org/news/mlb/](https://wwww.septa.org/news/mlb/) for mroe information.
+* For July 4 events, most Regional Rail lines (except AIR, CHE, CHW, WAR, WIL) provide additional inbound and outbound service before the fireworks; all Regional Rail lines (except Airport) provide late-night outbound service from Jefferson, Suburban and William H. Gray III 30th St stations after the fireworks. Please see [https://wwww.septa.org/news/july-4/](https://wwww.septa.org/news/july-4/) for more information.
+* Regional Rail summer schedules begin July 5. Please see [https://wwww.septa.org/news/regional-rail-schedules/](https://wwww.septa.org/news/regional-rail-schedules/) for more information.
+* Adjustments to timeframes.txt and fare_leg_rules.txt to prevent rules being ignored due to dropped service IDs.
+
+
+
+### v202606141
+
+**Bus/Metro**
+
+* Bus and Metro summer schedules take effect June 14, 2026 (June 15 for D1, D2, M1, and some suburban bus routes).
+* Overnight L1 and B1 service to select stations on nights of FIFA World Cup matches. Additional B2 sports express service to and from NRG Station for FIFA World Cup matches. Please see [https://wwww.septa.org/info/world-cup-soccer-septa/](https://wwww.septa.org/info/world-cup-soccer-septa/) for more information.
+* T lines serve Center City between 10pm-5am on June 14th-15th (Sunday night into Monday morning) and June 22nd-23rd (Monday night into Tuesday morning) to connect with additional L and B service. T lines will be diverted to 40th-Market between 10pm-5am on June 16th-17th and June 23rd-24th (both Tuesday night into Wednesday morning) instead.
+* Route 52 extended to Wissahickon Transportation Center.
+* 400-series routes do not operate during the summer.
+* Mann Loop `route\_short\_name` changed from "MANNLP" to "MANN" for legibility.
+
+**Regional Rail**
+
+* Fares v2 data describes weekday and weekend single-trip fares on Regional Rail.
+* Updated `stops.stop_lat` and `stops.stop_lon` for Conshohocken Station to reflect new platform location.
+* Minor stop name changes to align with other rider-facing materials.
+* Reordered routes and added `routes.route_sort_order` for usability.
+
+
+### v202605241
+
+**Bus/Metro** 
+
+* Fixes an issue with route_stops.txt.
+
+**Regional Rail**
+
+* No major changes.
+
+### v202605240
+
+**Bus/Metro**
+
+* T5 service restored along Island Avenue. T5 Bus service terminated. Please refer to [this bulletin](https://wwww.septa.org/news/t5-service-restored/) on SEPTA.org for more information.
+* Added GTFS-Pathways data for Frankford Transit Center, NRG Station, and 69th St. Transit Center.
+* T5 Bus, M1 Bus, FOX Bus and NOR Bus services have ended, but routes remain in the feed for consistency. They may be removed in a future release.
+* Other minor stop and schedule changes.
+
+**Regional Rail**
+
+* Added service for FIFA matches.
+
+### v202605100
 
 **Bus/Metro**
 
